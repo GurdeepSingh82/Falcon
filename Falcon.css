@@ -1,0 +1,334 @@
+body{
+  background-color: rgb(213, 215, 218)!important;
+}
+.navbar-brand span{
+  font-weight: bold;
+  font-size: 33px;
+  color:blue;
+}
+.navbar-toggler-icon{
+  border-radius: 50%;
+}
+.fa-bars{
+  font-size: larger!important;
+  padding-top: 3px!important;
+  color: rgba(0, 0, 0, 0.459);
+}
+ .navbar-toggler-icon:hover{
+  background-color:  rgba(0, 0, 255, 0.062);
+} 
+input{
+  width: 100%;
+  font-size: 40px;
+  box-sizing: border-box;
+  padding: 5px 5px 5px 40px;
+  border: 2px solid rgba(219, 216, 216, 0.623);
+  border-radius: 100px;
+  background-image: url(./Images/icons8-search-24.png);
+  background-position: 10px;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+.search-box{
+     height: 76px!important;
+} 
+.search-box input:focus{
+     outline: none;
+     border: 1px solid blue;
+}
+.theme-link{
+  padding: 3px 7px 3px 7px;
+  background-color: rgba(0, 0, 255, 0.062);
+  border-radius: 50%;
+}
+.theme-link:hover{
+  background-color:  rgba(0, 0, 255, 0.185);
+}
+
+@media screen and (min-width:50px) and (max-width:450px) {
+       .search-box a{
+         margin: 0%!important;
+       } 
+       
+       .search-box i{
+         font-size: 15px;
+       }      
+       .search-box img{
+          height: 30px;
+          width: 30px;
+       } 
+}
+@media screen and (min-width:10px) and (max-width:1199px){
+.icons-list{ 
+    display: none;
+  }
+.navbar-collapse span{
+    display: inline!important;
+    padding-right: 10px;
+  }
+.menu{
+    display: none;
+  }
+}
+ .menu-1{
+  height: 100vh;
+  overflow: auto;
+  z-index: -1!important;
+} 
+@media screen and (min-width:1200px) and (max-width:1500px){
+.menu-1{
+      display: none!important;
+    }
+}
+.icons-list{
+  padding-right: 10px!important; 
+}
+  .icons-list li{
+    border: none;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    list-style: none;
+  }
+  .icons-list ul{
+    padding: 0%;
+  }
+.dropdown-divider{
+  margin-top: 1rem!important;
+  margin-bottom: 1rem!important;
+}
+.side-menu{
+  background-color: rgb(213, 215, 218);
+}
+.side-menu i, .side-menu a{
+  color: rgb(110, 116, 122);
+}
+.dropdown-menu{
+  border: none!important;
+  background-color: rgb(248, 249, 250)!important;
+}
+.Starter-card{
+  background-color: white!important;
+}
+ .navbar-collapse{
+  background-color: rgb(213, 215, 218)!important;
+}
+.navbar-nav li{
+  background-color: rgb(213, 215, 218)!important;
+}
+.dropdown-divider{
+  background-color: rgb(213, 215, 218)!important;
+  border-top: 1px solid rgb(199, 197, 197)!important;
+}
+.navbar-nav{
+  background-color: rgb(213, 215, 218)!important;
+}
+.header{
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+  background-color:  rgb(213, 215, 218);
+}
+
+.menu{
+  height: calc(100vh - 76px)!important;
+  overflow: auto;
+  
+}
+.d-menu{
+  position: fixed!important;
+  top: 76px!important;
+  z-index: 1;
+  width: 280px!important;
+}
+.menu-1 a, .menu-1 i, .menu-1 p{
+  color: rgb(110, 116, 122);
+}
+.menu-1 hr{
+  background-color: rgb(110, 116, 122);
+}
+
+.menu::-webkit-scrollbar{
+  width: 8px;
+}
+.menu::-webkit-scrollbar-track{
+  background-color:rgb(213, 215, 218);
+}
+.menu::-webkit-scrollbar-thumb{
+  background-color: rgb(213, 215, 218);
+  border-radius: 5px;
+}
+.menu::-webkit-scrollbar-corner{
+  background-color: rgb(213, 215, 218);
+}
+.menu:hover::-webkit-scrollbar-thumb{
+  background-color:  rgba(138, 139, 141, 0.445);
+}
+.Starter{
+  height: max-content!important;
+}
+.navbar-collapse span{
+  display: none;
+  padding-right: 7px;
+}
+.d{
+  display: inline-flex!important;
+} 
+.d-1{
+  width: 30px;
+} 
+.d-2{
+  width: calc(100% - 35px);
+}
+.d-3{
+  width: 45px;
+}
+.d-4{
+  width: calc(100% - 50px);
+}
+.d-5{
+  width: 62px;
+}
+.d-6{
+  width: calc(100% - 67px);
+}
+.d-7{
+width: 110px;
+}
+.d-8{
+ width: calc(100% - 115px);
+}
+/*------------setting---------*/
+.theme-img1{
+  border: 3px solid #d3d2d25d;
+  position: relative;
+}
+.theme-img1:hover{
+  border: 3px solid rgba(0, 0, 0, 0.253);
+}
+.theme-img1:hover::before{
+  content: "";
+  display: block;
+  height: 100%;
+  position:absolute; 
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.253);
+}
+.theme-img2{
+  border: 3px solid rgba(211, 210, 210, 0.363);
+  position: relative;
+}
+.theme-img2:hover{
+  border: 3px solid rgba(0, 0, 0, 0.253);
+}
+.theme-img2:hover::before{
+  content: "";
+  display: block;
+  height: 100%;
+  position:absolute; 
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.253);
+}
+.s-button{
+  transform: rotate(-90deg);
+  transform-origin: right bottom; 
+  position: fixed!important;
+  top: 30%;
+  right: 0%; 
+  min-width:138px!important;
+  max-width: 138px!important;
+  padding: 6px!important;
+  cursor: pointer;
+} 
+@media screen and (max-width: 585px){
+   .s-button{
+    z-index: 1;
+  } 
+}
+.s-button .row{
+  padding: 2px;
+  background-color: #2d61992a;
+}
+.s-menu{
+  position: fixed!important;
+  top: 0%;
+  right: -396px;
+  z-index: 2;
+  min-width: 396px!important;
+  max-width: 396px!important;
+}
+.fa-times{
+  font-size:30px;
+  color: white;
+}
+.setting-1{
+  position: fixed;
+  top: 0%;
+  right: 0%;
+}
+.setting-2{
+  background-color: white;
+  height: calc(100vh - 88.797px);
+  overflow-y: auto!important;
+  overflow-x: hidden!important;
+}
+.setting-2::-webkit-scrollbar{
+  width: 6px;
+}
+.setting-2::-webkit-scrollbar-thumb{
+  background-color: white;
+  border-radius: 10px;
+  transition: all 2s!important;
+}
+.setting-2:hover::-webkit-scrollbar-thumb{
+  background-color: rgba(163, 161, 161, 0.432);
+}
+
+
+
+
+
+/*-----------Starter-page---------*/
+.s-1{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: block;
+  background-color: red;
+}
+.s-2{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: block;
+  background-color: yellowgreen;
+}
+
+
+/*----------Default-page----------*/
+
+.s-3{
+  display: block;
+  background-color: rgba(141, 236, 128, 0.555);
+  width: 50px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.562);
+}
+.P-1{
+  font-size: 40px;
+  margin: 0%;
+}
+.card-1{
+  flex-direction: row!important;
+  border-radius: 0.50rem!important;
+}
+/* .gurdeep{
+  transform: rotate(-90deg);
+  background-color: aquamarine;
+width: 300px!important;
+height: 300px!important;
+} */

@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Falcon | Dashboard & Web App Template</title>
+    <link rel="icon" type="image/.png" href="falcon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="./Falcon.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container p-0 p-sm-3">
+        <div class="row header m-0">
+            <div class="col-lg-3 col-md-4 col-5 align-self-center">
+                <div class="row h-100 m-0">
+                    <nav class="navbar col-3 pl-0 pl-xl-3">
+                        <div class="navbar-toggler  pl-0" data-toggle="collapse" data-target="#mynavbar">
+                            <span class="navbar-toggler-icon m-auto text-center"><i class="fal fa-bars"></i></span>
+                        </div>
+                    </nav>
+                    <div class="col-9  navbar-brand m-0">
+                        <div class="row h-100 m-0">
+                            <div class="col ">
+                                <img src="./Images/falcon.png" width="40px" height="40px" alt="" class="mb-2">
+                                <span class="ml-2">falcon</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-8 col-7 search-box">
+                <div class="row h-100 align-items-center m-0">
+                    <div class="col-lg-6 d-lg-block d-none p-0">
+                        <input type="text" name="search" placeholder="search...">
+                    </div>
+                    <div class="col-lg-6  text-right d-inline-block p-0">
+                        <a href="" class="ml-2 mr-2  theme-link"> <i class="fad fa-moon "></i></a>
+                        <a href="" class="ml-2 mr-2"><i class="fas fa-shopping-cart text-muted"></i></a>
+                        <a href="" class="ml-2 mr-2"> <i class="fas fa-bell text-muted"></i> </a>
+                        <a href="" class="ml-2 "><img src="./Images/3-thumb.png" alt="" width="35px" height="35px"
+                                style="border-radius: 50%;"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 collapse navbar-collapse menu-1" id="mynavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item  dropdown p-0">
+                        <a href="" class="nav-link  dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-chart-pie"></i></span>Dashboard
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">Default</a></li>
+                            <li><a href="" class="dropdown-item">Analytics</a></li>
+                            <li><a href="" class="dropdown-item">CRM</a></li>
+                            <li> <a href="" class="dropdown-item">E commerce</a></li>
+                            <li><a href="" class="dropdown-item">Management</a></li>
+                            <li><a href="" class="dropdown-item">Saas</a></li>
+                        </ul>
+                    </li>
+                    <div>
+                        <p class="d-1 d">App</p>
+                        <hr class="d-2 d dropdown-divider m-0">
+                    </div>
+                    <li class="nav-item p-0">
+                        <a href="" class="nav-link"><span><i class="fas fa-calendar-alt"></i></span> Calendar</a>
+                    </li>
+                    <li class="nav-item p-0">
+                        <a href="" class="nav-link"> <span><i class="fas fa-comments"></i></span>Chat</a>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-envelope-open"></i></span>Email</a>
+                        <ul class="dropdown-menu">
+                            <li> <a href="" class="dropdown-item">Inbox</a></li>
+                            <li> <a href="" class="dropdown-item">Email detail</a></li>
+                            <li> <a href="" class="dropdown-item">Compose</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-calendar-day"></i></span>Events</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">Create an event</a></li>
+                            <li><a href="" class="dropdown-item">Event detail</a></li>
+                            <li><a href="" class="dropdown-item">Event list</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"> <span><i
+                                    class="fas fa-shopping-cart"></i></span>E
+                            commerce</a>
+                        <ul class="dropdown-menu ">
+                            <li class="dropdown-submenu"> <a href="" class="dropdown-item dropdown-toggle">Product</a>
+                            </li>
+                            <ul class="dropdown-menu">
+                                <li> <a href="" class="dropdown-item">Product list</a></li>
+                                <li><a href="" class="dropdown-item">Product grid</a></li>
+                                <li><a href="" class="dropdown-item"> Product details</a></li>
+                            </ul>
+                            <li> <a href="" class="dropdown-item">Orders</a></li>
+                            <li> <a href="" class="dropdown-item">Customers</a></li>
+                            <li> <a href="" class="dropdown-item">Customer details</a></li>
+                            <li> <a href="" class="dropdown-item">Shopping cart</a></li>
+                            <li> <a href="" class="dropdown-item">checkout</a></li>
+                            <li> <a href="" class="dropdown-item">Billing</a></li>
+                            <li> <a href="" class="dropdown-item">Invoice</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item p-0">
+                        <a href="" class="nav-link"><span><i class="fab fa-trello"></i></span>Kanban</a>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-share-alt"></i></span>Social</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">Feed</a></li>
+                            <li><a href="" class="dropdown-item">Activity log</a></li>
+                            <li> <a href="" class="dropdown-item">Notifications</a></li>
+                            <li> <a href="" class="dropdown-item">Followers</a></li>
+                        </ul>
+                    </li>
+                    <div>
+                        <p class="d-3 d">Pages</p>
+                        <hr class="d-4 d dropdown-divider m-0">
+                    </div>
+                    <li class="nav-item p-0">
+                        <a href="" class="nav-link"><span><i class="fas fa-flag"></i></span>Starter</a>
+                    </li>
+                    <li class="nav-item p-0">
+                        <a href="" class="nav-link"><span><i class="fas fa-globe"></i></span>Landing</a>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-lock"></i></span>Authentication</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu"> <a href="" class="dropdown-item dropdown-toggle">Simple</a>
+                            </li>
+                            <ul class="dropdown-menu">
+                                <li> <a href="" class="dropdown-item">Login</a></li>
+                                <li> <a href="" class="dropdown-item">Logout</a></li>
+                                <li><a href="" class="dropdown-item">Register</a></li>
+                                <li><a href="" class="dropdown-item">Forgot password</a></li>
+                                <li><a href="" class="dropdown-item">Confirm mail</a></li>
+                                <li><a href="" class="dropdown-item">Reset password</a></li>
+                                <li> <a href="" class="dropdown-item">Lock screen</a></li>
+                            </ul>
+                            <li class="dropdown-submenu"> <a href="" class="dropdown-item dropdown-toggle">card</a></li>
+                            <ul class="dropdown-menu">
+                                <li><a href="" class="dropdown-item">Login</a></li>
+                                <li><a href="" class="dropdown-item">Logout</a></li>
+                                <li><a href="" class="dropdown-item">Register</a></li>
+                                <li><a href="" class="dropdown-item">Forgot password</a></li>
+                                <li><a href="" class="dropdown-item">Confirm mail</a></li>
+                                <li><a href="" class="dropdown-item">Reset password</a></li>
+                                <li><a href="" class="dropdown-item">Lock screen</a></li>
+                            </ul>
+                            <li class="dropdown-submenu"> <a href="" class="dropdown-item dropdown-toggle">Split</a>
+                            </li>
+                            <ul class="dropdown-menu">
+                                <li> <a href="" class="dropdown-item">Login</a></li>
+                                <li><a href="" class="dropdown-item">Logout</a></li>
+                                <li><a href="" class="dropdown-item">Register</a></li>
+                                <li><a href="" class="dropdown-item">Forgot password</a></li>
+                                <li><a href="" class="dropdown-item">Confirm mail</a></li>
+                                <li><a href="" class="dropdown-item">Reset password</a></li>
+                                <li><a href="" class="dropdown-item">Lock screen</a></li>
+                            </ul>
+                            <li><a href="" class="dropdown-item">Wizard</a></li>
+                            <li><a href="" class="dropdown-item">Modal</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-user"></i></span>User</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">Profile</a></li>
+                            <li><a href="" class="dropdown-item">Settings</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-tags"></i></span>Pricing</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">Pricing default</a></li>
+                            <li> <a href="" class="dropdown-item">Pricing alt</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-question-circle"></i></span>Faq</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">Faq basic</a></li>
+                            <li><a href="" class="dropdown-item">Faq alt</a></li>
+                            <li><a href="" class="dropdown-item">Faq accordion</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"> <span><i
+                                    class="fas fa-exclamation-triangle"></i></span>Errors</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">404</a></li>
+                            <li> <a href="" class="dropdown-item">500</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"> <span><i
+                                    class="fas fa-thumbtack"></i></span>Miscellaneous</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">Associations</a></li>
+                            <li><a href="" class="dropdown-item">Invite people</a></li>
+                            <li> <a href="" class="dropdown-item">Privacy policy</a></li>
+                        </ul>
+                    </li>
+                    <div>
+                        <p class="d-5 d">Modules</p>
+                        <hr class="d-6 d dropdown-divider m-0">
+                    </div>
+
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-file-alt"></i></span>Forms</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu"><a href="" class="dropdown-item dropdown-toggle">Basic</a></li>
+                            <ul class="dropdown-menu">
+                                <li><a href="" class="dropdown-item">Form control</a></li>
+                                <li><a href="" class="dropdown-item">Input group</a></li>
+                                <li><a href="" class="dropdown-item">Select</a></li>
+                                <li><a href="" class="dropdown-item">Checks</a></li>
+                                <li><a href="" class="dropdown-item">Range</a></li>
+                                <li><a href="" class="dropdown-item">Layout</a></li>
+                            </ul>
+                            <li class="dropdown-submenu"> <a href="" class="dropdown-item dropdown-toggle">Advance</a>
+                            </li>
+                            <ul class="dropdown-menu">
+                                <li><a href="" class="dropdown-item">Advance select</a></li>
+                                <li> <a href="" class="dropdown-item">Date picker</a></li>
+                                <li><a href="" class="dropdown-item">Editor</a></li>
+                                <li><a href="" class="dropdown-item">Emoji button</a></li>
+                                <li><a href="" class="dropdown-item">File uploader</a></li>
+                                <li><a href="" class="dropdown-item">Rating</a></li>
+                            </ul>
+                            <li> <a href="" class="dropdown-item">Floating labels</a></li>
+                            <li> <a href="" class="dropdown-item">Wizard</a></li>
+                            <li> <a href="" class="dropdown-item">Validation</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-table"></i></span>Tables</a>
+                        <ul class="dropdown-menu">
+                            <li> <a href="" class="dropdown-item">Basic tables</a></li>
+                            <li> <a href="" class="dropdown-item">Advance tables</a></li>
+                            <li> <a href="" class="dropdown-item">Bulk select</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-chart-line"></i></span>charts</a>
+                        <ul class="dropdown-menu">
+                            <li> <a href="" class="dropdown-item">Chartjs</a></li>
+                            <li class="dropdown-submenu"><a href="" class="dropdown-item dropdown-toggle">
+                                    Echarts</a></li>
+                            <ul class="dropdown-menu">
+                                <li><a href="" class="dropdown-item">Line charts</a></li>
+                                <li><a href="" class="dropdown-item">Bar charts</a></li>
+                                <li><a href="" class="dropdown-item">Candlestick charts</a></li>
+                                <li> <a href="" class="dropdown-item">Geo map</a></li>
+                                <li> <a href="" class="dropdown-item">Scatter charts</a></li>
+                                <li> <a href="" class="dropdown-item">Pie charts</a></li>
+                                <li> <a href="" class="dropdown-item">Radar charts</a></li>
+                                <li> <a href="" class="dropdown-item">heatmap charts</a></li>
+                                <li> <a href="" class="dropdown-item">How to use</a></li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-shapes"></i></span>Icons</a>
+                        <ul class="dropdown-menu">
+                            <li> <a href="" class="dropdown-item">Font awesome</a></li>
+                            <li> <a href="" class="dropdown-item">Bootstrap Icons</a></li>
+                            <li> <a href="" class="dropdown-item">Feather</a></li>
+                            <li><a href="" class="dropdown-item">Material Icons</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-map"></i></span>Maps</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item">Google map</a></li>
+                            <li> <a href="" class="dropdown-item">Leaflet map</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-puzzle-piece"></i></span>Components</a>
+                        <ul class="dropdown-menu">
+                            <li> <a href="" class="dropdown-item">accordion</a></li>
+                            <li> <a href="" class="dropdown-item">Alerts</a></li>
+                            <li> <a href="" class="dropdown-item">Anchor</a></li>
+                            <li> <a href="" class="dropdown-item">Animated icons</a></li>
+                            <li> <a href="" class="dropdown-item">Background</a></li>
+                            <li> <a href="" class="dropdown-item">Badges</a></li>
+                            <li> <a href="" class="dropdown-item">Breadcrumbs</a></li>
+                            <li> <a href="" class="dropdown-item">Buttons</a></li>
+                            <li> <a href="" class="dropdown-item">Calendar</a></li>
+                            <li> <a href="" class="dropdown-item">Cards</a></li>
+                            <li class="dropdown-submenu"> <a href="" class="dropdown-item dropdown-toggle">Carousel</a>
+                            </li>
+                            <ul class="dropdown-menu">
+                                <li> <a href="" class="dropdown-item">Bootstrap</a></li>
+                                <li> <a href="" class="dropdown-item">Swiper</a></li>
+                            </ul>
+                            <li> <a href="" class="dropdown-item">Collapse</a></li>
+                            <li> <a href="" class="dropdown-item">Cookie notice</a></li>
+                            <li> <a href="" class="dropdown-item">Countup</a></li>
+                            <li> <a href="" class="dropdown-item">Draggable</a></li>
+                            <li> <a href="" class="dropdown-item">dropdowns</a></li>
+                            <li> <a href="" class="dropdown-item">List group</a></li>
+                            <li> <a href="" class="dropdown-item">Modals</a></li>
+                            <li class="dropdown-submenu"> <a href="" class="dropdown-item dropdown-toggle">Navs
+                                    & Tabs</a></li>
+                            <ul class="dropdown-menu">
+                                <li><a href="" class="dropdown-item">Navs</a></li>
+                                <li><a href="" class="dropdown-item">Navbar</a></li>
+                                <li> <a href="" class="dropdown-item">Vertical navbar</a></li>
+                                <li> <a href="" class="dropdown-item">Top navbar</a></li>
+                                <li> <a href="" class="dropdown-item">Combo navbar</a></li>
+                                <li> <a href="" class="dropdown-item">Tabs</a></li>
+                            </ul>
+                            <li> <a href="" class="dropdown-item">offcanvas</a></li>
+                            <li class="dropdown-submenu"> <a href="" class="dropdown-item dropdown-toggle">Pictures</a>
+                            </li>
+                            <ul class="dropdown-menu">
+                                <li><a href="" class="dropdown-item">Avatar</a></li>
+                                <li><a href="" class="dropdown-item">Images</a></li>
+                                <li> <a href="" class="dropdown-item">Figures</a></li>
+                                <li> <a href="" class="dropdown-item">Hoverbox</a></li>
+                                <li> <a href="" class="dropdown-item">Lightbox</a></li>
+                            </ul>
+                            <li><a href="" class="dropdown-item">Progress bar</a></li>
+                            <li> <a href="" class="dropdown-item">placeholder</a></li>
+                            <li> <a href="" class="dropdown-item">Pagination</a></li>
+                            <li> <a href="" class="dropdown-item">Popovers</a></li>
+                            <li> <a href="" class="dropdown-item">Scrollspy</a></li>
+                            <li> <a href="" class="dropdown-item">Search</a></li>
+                            <li> <a href="" class="dropdown-item">Spinners</a></li>
+                            <li> <a href="" class="dropdown-item">Toasts</a></li>
+                            <li> <a href="" class="dropdown-item">Tooltips</a></li>
+                            <li> <a href="" class="dropdown-item">Treeview</a></li>
+                            <li> <a href="" class="dropdown-item">Typed text</a></li>
+                            <li class="dropdown-submenu"><a href="" class="dropdown-item dropdown-toggle">Videos</a>
+                            </li>
+                            <ul class="dropdown-menu">
+                                <li> <a href="" class="dropdown-item">Embed</a></li>
+                                <li> <a href="" class="dropdown-item">Plyr</a></li>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-fire"></i></span>Utilities</a>
+                        <ul class="dropdown-menu">
+                            <li> <a href="" class="dropdown-item">Border</a></li>
+                            <li> <a href="" class="dropdown-item">Clearfix</a></li>
+                            <li><a href="" class="dropdown-item">Colors</a></li>
+                            <li> <a href="" class="dropdown-item">Colored links</a></li>
+                            <li> <a href="" class="dropdown-item">Display</a></li>
+                            <li> <a href="" class="dropdown-item">Flex</a></li>
+                            <li> <a href="" class="dropdown-item">Float</a></li>
+                            <li> <a href="" class="dropdown-item">Grid</a></li>
+                            <li> <a href="" class="dropdown-item">Overlayscrollbars</a></li>
+                            <li> <a href="" class="dropdown-item">Position</a></li>
+                            <li> <a href="" class="dropdown-item">Spacing</a></li>
+                            <li> <a href="" class="dropdown-item">Sizing</a></li>
+                            <li> <a href="" class="dropdown-item">Stretched link</a></li>
+                            <li> <a href="" class="dropdown-item">Text truncation</a></li>
+                            <li> <a href="" class="dropdown-item">Typography</a></li>
+                            <li> <a href="" class="dropdown-item">Vertical align</a></li>
+                            <li> <a href="" class="dropdown-item">Visibility</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item p-0">
+                        <a href="" class="nav-link"><span><i class="fas fa-poll"></i></span>Widgets</a>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fas fa-layer-group"></i></span>Multi
+                            level</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu"><a href="" class="dropdown-item dropdown-toggle">Level
+                                    two</a></li>
+                            <ul class="dropdown-menu ">
+                                <li> <a href="" class="dropdown-item">Item 1</a></li>
+                                <li> <a href="" class="dropdown-item">Item 2</a></li>
+                            </ul>
+                            <li class="dropdown-submenu"> <a href="" class="dropdown-item dropdown-toggle">Level
+                                    three</a></li>
+                            <ul class="dropdown-menu">
+                                <li><a href="" class="dropdown-item">Item 3</a></li>
+                                <li class=" dropdown-submenu"><a href="" class="dropdown-item dropdown-toggle">Item
+                                        4</a></li>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="" class="dropdown-item">Item 5</a></li>
+                                    <li> <a href="" class="dropdown-item">Item 6</a></li>
+                                </ul>
+                            </ul>
+
+                            <li class="dropdown-submenu"><a href="" class="dropdown-item dropdown-toggle">Level
+                                    four </a></li>
+                            <ul class="dropdown-menu">
+                                <li><a href="" class="dropdown-item">Item 6</a></li>
+                                <li class="dropdown-submenu"> <a href="" class="dropdown-item  dropdown-toggle">Item
+                                        7</a></li>
+                                <ul class=" dropdown-menu">
+                                    <li> <a href="" class="dropdown-item">Item 8</a></li>
+                                    <li> <a href="" class="dropdown-item">Item 9</a></li>
+                                </ul>
+                            </ul>
+                        </ul>
+                    </li>
+                    <div>
+                        <p class="d-7 d">Documentation</p>
+                        <hr class="d-8 d dropdown-divider m-0">
+                    </div>
+
+                    <li class="nav-item p-0">
+                        <a href="" class="nav-link"><span><i class="fas fa-rocket"></i></span>Getting started</a>
+                    </li>
+                    <li class="nav-item dropdown p-0">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                    class="fad fa-wrench"></i></span>Customization</a>
+                        <ul class="dropdown-menu">
+                            <li> <a href="" class="dropdown-item">Configuration</a></li>
+                            <li> <a href="" class="dropdown-item">Styling</a></li>
+                            <li> <a href="" class="dropdown-item">Dark mode</a></li>
+                            <li> <a href="" class="dropdown-item">Plugin</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item p-0">
+                        <a href="" class="nav-link"><span><i class="fab fa-gulp"></i></span>Gulp</a>
+                    </li>
+                    <li class="nav-item p-0">
+                        <a href="" class="nav-link"><span><i class="fas fa-palette"></i></span>Design file</a>
+                    </li>
+                    <li class="nav-item p-0">
+                        <a href="" class="nav-link"><span><i class="fas fa-code-branch"></i></span>Changelog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row m-0">
+            <div class="col-xl-3 menu">
+                <div class="row side-menu m-0">
+                    <div class="col-xl-2 icons-list">
+                        <ul class=" ">
+                            <li class=""><a href=""> <i class="fas fa-chart-pie"></i> </a></li>
+                            <hr>
+                            <li class=""> <a href=""> <i class="fas fa-calendar-alt"></i> </a></li>
+                            <li class=""><a href=""> <i class="fas fa-comments"></i> </a></li>
+                            <li class=""><a href=""> <i class="fas fa-envelope-open"></i> </a></li>
+                            <li class=""><a href=""> <i class="fas fa-calendar-day"></i> </a></li>
+                            <li class=""><a href=""> <i class="fas fa-shopping-cart"></i> </a></li>
+                            <li class=""><a href=""><i class="fab fa-trello"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-share-alt"></i></a></li>
+                            <hr>
+                            <li class=""><a href=""><i class="fas fa-flag"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-globe"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-lock"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-user"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-tags"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-question-circle"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-exclamation-triangle"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-thumbtack"></i></a></li>
+                            <hr>
+                            <li class=""><a href=""><i class="fas fa-file-alt"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-table"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-chart-line"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-shapes"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-map"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-puzzle-piece"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-fire"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-poll"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-layer-group"></i></a></li>
+                            <hr>
+                            <li class=""><a href=""><i class="fas fa-rocket"></i></a></li>
+                            <li class=""><a href=""><i class="fad fa-wrench"></i></a></li>
+                            <li class=""><a href=""><i class="fab fa-gulp"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-palette"></i></a></li>
+                            <li class=""><a href=""><i class="fas fa-code-branch"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-10 col-12 collapse navbar-collapse p-0" id="mynavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item  dropdown p-0">
+                                <a href="" class="nav-link  dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-chart-pie"></i></span>Dashboard
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="" class="dropdown-item">Default</a></li>
+                                    <li><a href="" class="dropdown-item">Analytics</a></li>
+                                    <li><a href="" class="dropdown-item">CRM</a></li>
+                                    <li> <a href="" class="dropdown-item">E commerce</a></li>
+                                    <li><a href="" class="dropdown-item">Management</a></li>
+                                    <li><a href="" class="dropdown-item">Saas</a></li>
+                                </ul>
+                            </li>
+                            <div class="dropdown-divider"></div>
+
+                            <li class="nav-item  p-0">
+                                <a href="" class="nav-link"><span><i class="fas fa-calendar-alt"></i></span>
+                                    Calendar</a>
+                            </li>
+                            <li class="nav-item p-0">
+                                <a href="" class="nav-link"> <span><i class="fas fa-comments"></i></span>Chat</a>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-envelope-open"></i></span>Email</a>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="" class="dropdown-item">Inbox</a></li>
+                                    <li> <a href="" class="dropdown-item">Email detail</a></li>
+                                    <li> <a href="" class="dropdown-item">Compose</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-calendar-day"></i></span>Events</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="" class="dropdown-item">Create an event</a></li>
+                                    <li><a href="" class="dropdown-item">Event detail</a></li>
+                                    <li><a href="" class="dropdown-item">Event list</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"> <span><i
+                                            class="fas fa-shopping-cart"></i></span>E
+                                    commerce</a>
+                                <ul class="dropdown-menu ">
+                                    <li class="dropdown-submenu"> <a href=""
+                                            class="dropdown-item dropdown-toggle">Product</a></li>
+                                    <ul class="dropdown-menu">
+                                        <li> <a href="" class="dropdown-item">Product list</a></li>
+                                        <li><a href="" class="dropdown-item">Product grid</a></li>
+                                        <li><a href="" class="dropdown-item"> Product details</a></li>
+                                    </ul>
+                                    <li> <a href="" class="dropdown-item">Orders</a></li>
+                                    <li> <a href="" class="dropdown-item">Customers</a></li>
+                                    <li> <a href="" class="dropdown-item">Customer details</a></li>
+                                    <li> <a href="" class="dropdown-item">Shopping cart</a></li>
+                                    <li> <a href="" class="dropdown-item">checkout</a></li>
+                                    <li> <a href="" class="dropdown-item">Billing</a></li>
+                                    <li> <a href="" class="dropdown-item">Invoice</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item p-0">
+                                <a href="" class="nav-link"><span><i class="fab fa-trello"></i></span>Kanban</a>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-share-alt"></i></span>Social</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="" class="dropdown-item">Feed</a></li>
+                                    <li><a href="" class="dropdown-item">Activity log</a></li>
+                                    <li> <a href="" class="dropdown-item">Notifications</a></li>
+                                    <li> <a href="" class="dropdown-item">Followers</a></li>
+                                </ul>
+                            </li>
+                            <div class="dropdown-divider"></div>
+
+                            <li class="nav-item p-0">
+                                <a href="" class="nav-link"><span><i class="fas fa-flag"></i></span>Starter</a>
+                            </li>
+                            <li class="nav-item p-0">
+                                <a href="" class="nav-link"><span><i class="fas fa-globe"></i></span>Landing</a>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-lock"></i></span>Authentication</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu"> <a href=""
+                                            class="dropdown-item dropdown-toggle">Simple</a></li>
+                                    <ul class="dropdown-menu">
+                                        <li> <a href="" class="dropdown-item">Login</a></li>
+                                        <li> <a href="" class="dropdown-item">Logout</a></li>
+                                        <li><a href="" class="dropdown-item">Register</a></li>
+                                        <li><a href="" class="dropdown-item">Forgot password</a></li>
+                                        <li><a href="" class="dropdown-item">Confirm mail</a></li>
+                                        <li><a href="" class="dropdown-item">Reset password</a></li>
+                                        <li> <a href="" class="dropdown-item">Lock screen</a></li>
+                                    </ul>
+                                    <li class="dropdown-submenu"> <a href=""
+                                            class="dropdown-item dropdown-toggle">card</a></li>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="" class="dropdown-item">Login</a></li>
+                                        <li><a href="" class="dropdown-item">Logout</a></li>
+                                        <li><a href="" class="dropdown-item">Register</a></li>
+                                        <li><a href="" class="dropdown-item">Forgot password</a></li>
+                                        <li><a href="" class="dropdown-item">Confirm mail</a></li>
+                                        <li><a href="" class="dropdown-item">Reset password</a></li>
+                                        <li><a href="" class="dropdown-item">Lock screen</a></li>
+                                    </ul>
+                                    <li class="dropdown-submenu"> <a href=""
+                                            class="dropdown-item dropdown-toggle">Split</a></li>
+                                    <ul class="dropdown-menu">
+                                        <li> <a href="" class="dropdown-item">Login</a></li>
+                                        <li><a href="" class="dropdown-item">Logout</a></li>
+                                        <li><a href="" class="dropdown-item">Register</a></li>
+                                        <li><a href="" class="dropdown-item">Forgot password</a></li>
+                                        <li><a href="" class="dropdown-item">Confirm mail</a></li>
+                                        <li><a href="" class="dropdown-item">Reset password</a></li>
+                                        <li><a href="" class="dropdown-item">Lock screen</a></li>
+                                    </ul>
+                                    <li><a href="" class="dropdown-item">Wizard</a></li>
+                                    <li><a href="" class="dropdown-item">Modal</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-user"></i></span>User</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="" class="dropdown-item">Profile</a></li>
+                                    <li><a href="" class="dropdown-item">Settings</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-tags"></i></span>Pricing</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="" class="dropdown-item">Pricing default</a></li>
+                                    <li> <a href="" class="dropdown-item">Pricing alt</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-question-circle"></i></span>Faq</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="" class="dropdown-item">Faq basic</a></li>
+                                    <li><a href="" class="dropdown-item">Faq alt</a></li>
+                                    <li><a href="" class="dropdown-item">Faq accordion</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"> <span><i
+                                            class="fas fa-exclamation-triangle"></i></span>Errors</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="" class="dropdown-item">404</a></li>
+                                    <li> <a href="" class="dropdown-item">500</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"> <span><i
+                                            class="fas fa-thumbtack"></i></span>Miscellaneous</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="" class="dropdown-item">Associations</a></li>
+                                    <li><a href="" class="dropdown-item">Invite people</a></li>
+                                    <li> <a href="" class="dropdown-item">Privacy policy</a></li>
+                                </ul>
+                            </li>
+                            <div class="dropdown-divider"></div>
+
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-file-alt"></i></span>Forms</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu"><a href=""
+                                            class="dropdown-item dropdown-toggle">Basic</a></li>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="" class="dropdown-item">Form control</a></li>
+                                        <li><a href="" class="dropdown-item">Input group</a></li>
+                                        <li><a href="" class="dropdown-item">Select</a></li>
+                                        <li><a href="" class="dropdown-item">Checks</a></li>
+                                        <li><a href="" class="dropdown-item">Range</a></li>
+                                        <li><a href="" class="dropdown-item">Layout</a></li>
+                                    </ul>
+                                    <li class="dropdown-submenu"> <a href=""
+                                            class="dropdown-item dropdown-toggle">Advance</a></li>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="" class="dropdown-item">Advance select</a></li>
+                                        <li> <a href="" class="dropdown-item">Date picker</a></li>
+                                        <li><a href="" class="dropdown-item">Editor</a></li>
+                                        <li><a href="" class="dropdown-item">Emoji button</a></li>
+                                        <li><a href="" class="dropdown-item">File uploader</a></li>
+                                        <li><a href="" class="dropdown-item">Rating</a></li>
+                                    </ul>
+                                    <li> <a href="" class="dropdown-item">Floating labels</a></li>
+                                    <li> <a href="" class="dropdown-item">Wizard</a></li>
+                                    <li> <a href="" class="dropdown-item">Validation</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-table"></i></span>Tables</a>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="" class="dropdown-item">Basic tables</a></li>
+                                    <li> <a href="" class="dropdown-item">Advance tables</a></li>
+                                    <li> <a href="" class="dropdown-item">Bulk select</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-chart-line"></i></span>charts</a>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="" class="dropdown-item">Chartjs</a></li>
+                                    <li class="dropdown-submenu"><a href="" class="dropdown-item dropdown-toggle">
+                                            Echarts</a></li>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="" class="dropdown-item">Line charts</a></li>
+                                        <li><a href="" class="dropdown-item">Bar charts</a></li>
+                                        <li><a href="" class="dropdown-item">Candlestick charts</a></li>
+                                        <li> <a href="" class="dropdown-item">Geo map</a></li>
+                                        <li> <a href="" class="dropdown-item">Scatter charts</a></li>
+                                        <li> <a href="" class="dropdown-item">Pie charts</a></li>
+                                        <li> <a href="" class="dropdown-item">Radar charts</a></li>
+                                        <li> <a href="" class="dropdown-item">heatmap charts</a></li>
+                                        <li> <a href="" class="dropdown-item">How to use</a></li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-shapes"></i></span>Icons</a>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="" class="dropdown-item">Font awesome</a></li>
+                                    <li> <a href="" class="dropdown-item">Bootstrap Icons</a></li>
+                                    <li> <a href="" class="dropdown-item">Feather</a></li>
+                                    <li><a href="" class="dropdown-item">Material Icons</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-map"></i></span>Maps</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="" class="dropdown-item">Google map</a></li>
+                                    <li> <a href="" class="dropdown-item">Leaflet map</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-puzzle-piece"></i></span>Components</a>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="" class="dropdown-item">accordion</a></li>
+                                    <li> <a href="" class="dropdown-item">Alerts</a></li>
+                                    <li> <a href="" class="dropdown-item">Anchor</a></li>
+                                    <li> <a href="" class="dropdown-item">Animated icons</a></li>
+                                    <li> <a href="" class="dropdown-item">Background</a></li>
+                                    <li> <a href="" class="dropdown-item">Badges</a></li>
+                                    <li> <a href="" class="dropdown-item">Breadcrumbs</a></li>
+                                    <li> <a href="" class="dropdown-item">Buttons</a></li>
+                                    <li> <a href="" class="dropdown-item">Calendar</a></li>
+                                    <li> <a href="" class="dropdown-item">Cards</a></li>
+                                    <li class="dropdown-submenu"> <a href=""
+                                            class="dropdown-item dropdown-toggle">Carousel</a></li>
+                                    <ul class="dropdown-menu">
+                                        <li> <a href="" class="dropdown-item">Bootstrap</a></li>
+                                        <li> <a href="" class="dropdown-item">Swiper</a></li>
+                                    </ul>
+                                    <li> <a href="" class="dropdown-item">Collapse</a></li>
+                                    <li> <a href="" class="dropdown-item">Cookie notice</a></li>
+                                    <li> <a href="" class="dropdown-item">Countup</a></li>
+                                    <li> <a href="" class="dropdown-item">Draggable</a></li>
+                                    <li> <a href="" class="dropdown-item">dropdowns</a></li>
+                                    <li> <a href="" class="dropdown-item">List group</a></li>
+                                    <li> <a href="" class="dropdown-item">Modals</a></li>
+                                    <li class="dropdown-submenu"> <a href="" class="dropdown-item dropdown-toggle">Navs
+                                            & Tabs</a></li>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="" class="dropdown-item">Navs</a></li>
+                                        <li><a href="" class="dropdown-item">Navbar</a></li>
+                                        <li> <a href="" class="dropdown-item">Vertical navbar</a></li>
+                                        <li> <a href="" class="dropdown-item">Top navbar</a></li>
+                                        <li> <a href="" class="dropdown-item">Combo navbar</a></li>
+                                        <li> <a href="" class="dropdown-item">Tabs</a></li>
+                                    </ul>
+                                    <li> <a href="" class="dropdown-item">offcanvas</a></li>
+                                    <li class="dropdown-submenu"> <a href=""
+                                            class="dropdown-item dropdown-toggle">Pictures</a></li>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="" class="dropdown-item">Avatar</a></li>
+                                        <li><a href="" class="dropdown-item">Images</a></li>
+                                        <li> <a href="" class="dropdown-item">Figures</a></li>
+                                        <li> <a href="" class="dropdown-item">Hoverbox</a></li>
+                                        <li> <a href="" class="dropdown-item">Lightbox</a></li>
+                                    </ul>
+                                    <li><a href="" class="dropdown-item">Progress bar</a></li>
+                                    <li> <a href="" class="dropdown-item">placeholder</a></li>
+                                    <li> <a href="" class="dropdown-item">Pagination</a></li>
+                                    <li> <a href="" class="dropdown-item">Popovers</a></li>
+                                    <li> <a href="" class="dropdown-item">Scrollspy</a></li>
+                                    <li> <a href="" class="dropdown-item">Search</a></li>
+                                    <li> <a href="" class="dropdown-item">Spinners</a></li>
+                                    <li> <a href="" class="dropdown-item">Toasts</a></li>
+                                    <li> <a href="" class="dropdown-item">Tooltips</a></li>
+                                    <li> <a href="" class="dropdown-item">Treeview</a></li>
+                                    <li> <a href="" class="dropdown-item">Typed text</a></li>
+                                    <li class="dropdown-submenu"><a href=""
+                                            class="dropdown-item dropdown-toggle">Videos</a></li>
+                                    <ul class="dropdown-menu">
+                                        <li> <a href="" class="dropdown-item">Embed</a></li>
+                                        <li> <a href="" class="dropdown-item">Plyr</a></li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-fire"></i></span>Utilities</a>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="" class="dropdown-item">Border</a></li>
+                                    <li> <a href="" class="dropdown-item">Clearfix</a></li>
+                                    <li><a href="" class="dropdown-item">Colors</a></li>
+                                    <li> <a href="" class="dropdown-item">Colored links</a></li>
+                                    <li> <a href="" class="dropdown-item">Display</a></li>
+                                    <li> <a href="" class="dropdown-item">Flex</a></li>
+                                    <li> <a href="" class="dropdown-item">Float</a></li>
+                                    <li> <a href="" class="dropdown-item">Grid</a></li>
+                                    <li> <a href="" class="dropdown-item">Overlayscrollbars</a></li>
+                                    <li> <a href="" class="dropdown-item">Position</a></li>
+                                    <li> <a href="" class="dropdown-item">Spacing</a></li>
+                                    <li> <a href="" class="dropdown-item">Sizing</a></li>
+                                    <li> <a href="" class="dropdown-item">Stretched link</a></li>
+                                    <li> <a href="" class="dropdown-item">Text truncation</a></li>
+                                    <li> <a href="" class="dropdown-item">Typography</a></li>
+                                    <li> <a href="" class="dropdown-item">Vertical align</a></li>
+                                    <li> <a href="" class="dropdown-item">Visibility</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item p-0">
+                                <a href="" class="nav-link"><span><i class="fas fa-poll"></i></span>Widgets</a>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fas fa-layer-group"></i></span>Multi
+                                    level</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu"><a href="" class="dropdown-item dropdown-toggle">Level
+                                            two</a></li>
+                                    <ul class="dropdown-menu ">
+                                        <li> <a href="" class="dropdown-item">Item 1</a></li>
+                                        <li> <a href="" class="dropdown-item">Item 2</a></li>
+                                    </ul>
+                                    <li class="dropdown-submenu"> <a href="" class="dropdown-item dropdown-toggle">Level
+                                            three</a></li>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="" class="dropdown-item">Item 3</a></li>
+                                        <li class=" dropdown-submenu"><a href=""
+                                                class="dropdown-item dropdown-toggle">Item 4</a></li>
+                                        <ul class="dropdown-menu">
+                                            <li> <a href="" class="dropdown-item">Item 5</a></li>
+                                            <li> <a href="" class="dropdown-item">Item 6</a></li>
+                                        </ul>
+                                    </ul>
+
+                                    <li class="dropdown-submenu"><a href="" class="dropdown-item dropdown-toggle">Level
+                                            four </a></li>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="" class="dropdown-item">Item 6</a></li>
+                                        <li class="dropdown-submenu"> <a href=""
+                                                class="dropdown-item  dropdown-toggle">Item 7</a></li>
+                                        <ul class=" dropdown-menu">
+                                            <li> <a href="" class="dropdown-item">Item 8</a></li>
+                                            <li> <a href="" class="dropdown-item">Item 9</a></li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                            </li>
+                            <div class="dropdown-divider"></div>
+
+                            <li class="nav-item p-0">
+                                <a href="" class="nav-link"><span><i class="fas fa-rocket"></i></span>Getting
+                                    started</a>
+                            </li>
+                            <li class="nav-item dropdown p-0">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><span><i
+                                            class="fad fa-wrench"></i></span>Customization</a>
+                                <ul class="dropdown-menu">
+                                    <li> <a href="" class="dropdown-item">Configuration</a></li>
+                                    <li> <a href="" class="dropdown-item">Styling</a></li>
+                                    <li> <a href="" class="dropdown-item">Dark mode</a></li>
+                                    <li> <a href="" class="dropdown-item">Plugin</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item p-0">
+                                <a href="" class="nav-link"><span><i class="fab fa-gulp"></i></span>Gulp</a>
+                            </li>
+                            <li class="nav-item p-0">
+                                <a href="" class="nav-link"><span><i class="fas fa-palette"></i></span>Design file</a>
+                            </li>
+                            <li class="nav-item p-0">
+                                <a href="" class="nav-link"><span><i class="fas fa-code-branch"></i></span>Changelog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-9 Starter">
+                <div class="row h-100">
+                    <div class="col-12">
+                        <div class="row h-100 rounded align-items-center Starter-card shadow m-0">
+                            <div class="col-lg-5 offset-lg-1 mt-5 mb-lg-5">
+                                <img src="./Images/1.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-lg-6  mt-5 mb-5 text-center">
+                                <h2 class="text-primary">Edit me!</h2>
+                                <p class="lead text-muted">Create Something Beautiful.</p>
+                                <a href="" class="btn text-primary border">
+                                    <h5>Getting started</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 align-self-end mt-5">
+                        <div class="row text-muted r-2 ml-0 mr-0">
+                            <div class="col-sm-11 p-0 text-sm-left text-center ">
+                                <p class="m-0">Thank you for creating with Falcon | 2021 © <a href="">Themewagon</a></p>
+                            </div>
+                            <div class="col-sm-1 p-0 text-sm-right text-center">
+                                <p>v3.4.0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 s-menu offset-2" id="settinglinks">
+                        <div class="row">
+                            <div class="col-12 bg-primary setting-1">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <h4 class="text-light m-0 pt-3"><i class="fas fa-palette text-light pr-3"></i>Settings
+                                        </h4>
+                                        <p class="text-light m-0 pb-3 pt-1">Set your own customized style</p>
+                                    </div>
+                                    <div class="col-2 align-self-center">
+                                        <i class="fal fa-times" onclick="hideMenu()"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row setting-2">
+                            <div class="col-12">
+                                <div class="row m-0">
+                                    <div class="col-12">
+                                        <h5 class="m-0 pt-3">Color Scheme</h5>
+                                        <p class="m-0 pb-3 pt-1 text-muted">Choose the perfect color mode for your app.</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="theme-img1 rounded ">
+                                            <img src="./Images/theme-1.jpg" class="img-fluid" />
+                                        </div>
+        
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="theme-img2 rounded">
+                                            <img src="./Images/theme-2.jpg" class="img-fluid" />
+                                        </div>
+        
+                                    </div>
+        
+                                    <div class="col-6 mt-2">
+                                        <div class="row">
+                                            <div class="col-2 pr-0">
+                                                <input type="radio" id="Light" name="theme">
+                                            </div>
+                                            <div class="col-10 pl-1">
+                                                <label for="Light" class="text-muted">Light</label>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-6 mt-2 ">
+                                        <div class="row">
+                                            <div class="col-2 pr-0 ">
+                                                <input type="radio" id="Dark" name="theme">
+                                            </div>
+                                            <div class="col-10 pl-1 ">
+                                                <label for="Dark" class="text-muted">Dark</label>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                                <hr class="mt-4">
+                            </div>
+                            <div class="col-12">
+                                <div class="row m-0">
+                                    <div class="col-1">
+                                        <i class="fas fa-arrow-from-right text-primary"></i>
+                                    </div>
+                                    <div class="col-9">
+                                        <h5 class="m-0">RTL Mode</h5>
+                                        <p class="text-muted m-0">Switch your language direction </p>
+                                        <a href="">RTL Documentation</a>
+                                    </div>
+                                    <div class="col-2 custom-control  custom-switch">
+                                        <input type="checkbox" class="custom-control-input" id="check">
+                                        <label class="custom-control-label" for="check"></label>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="col-12">
+                                <div class="row m-0">
+                                    <div class="col-1">
+                                        <i class="fas fa-arrows-h text-primary"></i>
+                                    </div>
+                                    <div class="col-9">
+                                        <h5 class="m-0">Fluid Layout</h5>
+                                        <p class="text-muted m-0">Toggle container layout system </p>
+                                        <a href="">Fluid Documentation</a>
+                                    </div>
+                                    <div class="col-2 custom-control  custom-switch">
+                                        <input type="checkbox" class="custom-control-input" id="checkbox">
+                                        <label class="custom-control-label" for="checkbox"></label>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="col-12">
+                                <div class="row m-0">
+                                    <div class="col-1">
+                                        <i class="fal fa-align-left text-primary"></i>
+                                    </div>
+                                    <div class="col-11">
+                                        <h5 class="m-0">Navigation Position </h5>
+                                        <p class="text-muted">Select a suitable navigation system for your web application
+                                        </p>
+                                    </div>
+                                    <div class="col-1 pr-0 offset-1">
+                                        <input type="radio" id="Vertical" name="screen">
+                                    </div>
+                                    <div class="col-3 pl-1">
+                                        <label for="Vertical">Vertical</label>
+                                    </div>
+                                    <div class="col-1 pr-0">
+                                        <input type="radio" id="top" name="screen">
+                                    </div>
+                                    <div class="col-2 pl-1">
+                                        <label for="top">Top</label>
+                                    </div>
+                                    <div class="col-1 pr-0">
+                                        <input type="radio" id="combo" name="screen">
+                                    </div>
+                                    <div class="col-3 pl-1">
+                                        <label for="combo">Combo</label>
+                                    </div>
+                                </div>
+                                <hr class="mt-4">
+                            </div>
+                            <div class="col-12">
+                                <div class="row m-0">
+                                    <div class="col-12">
+                                        <h5 class="m-0">Vertical Navbar Style</h5>
+                                        <p class="text-muted m-0">Switch between styles for your vertical navbar </p>
+                                        <a href="">See Documentation</a>
+                                    </div>
+                                    <div class="col-6 mt-4">
+                                        <img src="./Images/default.png" class="img-fluid rounded border" />
+                                    </div>
+                                    <div class="col-6 mt-4">
+                                        <img src="./Images/inverted.png" class="img-fluid rounded border" />
+                                    </div>
+                                    <div class="col-1 pr-0 mt-2">
+                                        <input type="radio" id="Transparent" name="effect">
+                                    </div>
+                                    <div class="col-5 pl-1 mt-2">
+                                        <label for="Transparent"> Transparent</label>
+                                    </div>
+                                    <div class="col-1 pr-0 mt-2"><input type="radio" id="Inverted" name="effect">
+                                    </div>
+                                    <div class="col-5 pl-1 mt-2"><label for="Inverted">Inverted</label>
+                                    </div>
+                                    <div class="col-6 mt-2">
+                                        <img src="./Images/card.png" class="img-fluid rounded border" />
+                                    </div>
+                                    <div class="col-6 mt-2">
+                                        <img src="./Images/vibrant.png" class="img-fluid rounded border" />
+                                    </div>
+                                    <div class="col-1 pr-0 mt-2"><input type="radio" id="Card" name="effect">
+                                    </div>
+                                    <div class="col-5 pl-1 mt-2"><label for="Card">Card</label>
+                                    </div>
+                                    <div class="col-1 pr-0 mt-2"><input type="radio" id="Vibrant" name="effect">
+                                    </div>
+                                    <div class="col-5 pl-1 mt-2"><label for="Vibrant">Vibrant</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 mt-5 mb-4">
+                                <div style="height: 150px; width: 150px; margin:auto;">
+                                    <img src="./Images/2.png" alt="" class="img-fluid" />
+                                </div>
+                                <h4 class="text-center mt-4">Like What You See?</h4>
+                                <p class="text-center text-muted"> Get Falcon now and create beautiful dashboards with
+                                    hundreds of widgets. </p>
+                                <a href="" class="btn btn-primary font-weight-bold"
+                                    style="margin:auto; display:block; width: 125px;">Purchase</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2 align-self-start s-button  rounded bg-light" onclick="showMenu()">
+                        <div class="row m-0 rounded">
+                            <div class="col-2 p-0 text-center">
+                                <i class="far fa-cog text-primary"></i>
+                            </div>
+                            <div class="col-10 p-0">
+                                <p class="m-0 text-primary pl-1 font-weight-bold tisa">CUSTOMIZE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row setting">
+           
+        </div> -->
+    </div>
+    <!-- <div class="container-fluid">
+    <div class="row setting">
+        <div class="col-4 s-menu offset-2" id="settinglinks">
+            <div class="row">
+                <div class="col-12 bg-primary setting-1">
+                    <div class="row">
+                        <div class="col-10">
+                            <h4 class="text-light m-0 pt-3"><i class="fas fa-palette text-light pr-3"></i>Settings
+                            </h4>
+                            <p class="text-light m-0 pb-3 pt-1">Set your own customized style</p>
+                        </div>
+                        <div class="col-2 align-self-center">
+                            <i class="fal fa-times" onclick="hideMenu()"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row setting-2">
+                <div class="col-12">
+                    <div class="row m-0">
+                        <div class="col-12">
+                            <h5 class="m-0 pt-3">Color Scheme</h5>
+                            <p class="m-0 pb-3 pt-1 text-muted">Choose the perfect color mode for your app.</p>
+                        </div>
+                        <div class="col-6">
+                            <div class="theme-img1 rounded ">
+                                <img src="./Images/theme-1.jpg" class="img-fluid" />
+                            </div>
+
+                        </div>
+                        <div class="col-6">
+                            <div class="theme-img2 rounded">
+                                <img src="./Images/theme-2.jpg" class="img-fluid" />
+                            </div>
+
+                        </div>
+
+                        <div class="col-6 mt-2">
+                            <div class="row">
+                                <div class="col-2 pr-0">
+                                    <input type="radio" id="Light" name="theme">
+                                </div>
+                                <div class="col-10 pl-1">
+                                    <label for="Light" class="text-muted">Light</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 mt-2 ">
+                            <div class="row">
+                                <div class="col-2 pr-0 ">
+                                    <input type="radio" id="Dark" name="theme">
+                                </div>
+                                <div class="col-10 pl-1 ">
+                                    <label for="Dark" class="text-muted">Dark</label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr class="mt-4">
+                </div>
+                <div class="col-12">
+                    <div class="row m-0">
+                        <div class="col-1">
+                            <i class="fas fa-arrow-from-right text-primary"></i>
+                        </div>
+                        <div class="col-9">
+                            <h5 class="m-0">RTL Mode</h5>
+                            <p class="text-muted m-0">Switch your language direction </p>
+                            <a href="">RTL Documentation</a>
+                        </div>
+                        <div class="col-2 custom-control  custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="check">
+                            <label class="custom-control-label" for="check"></label>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col-12">
+                    <div class="row m-0">
+                        <div class="col-1">
+                            <i class="fas fa-arrows-h text-primary"></i>
+                        </div>
+                        <div class="col-9">
+                            <h5 class="m-0">Fluid Layout</h5>
+                            <p class="text-muted m-0">Toggle container layout system </p>
+                            <a href="">Fluid Documentation</a>
+                        </div>
+                        <div class="col-2 custom-control  custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="checkbox">
+                            <label class="custom-control-label" for="checkbox"></label>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col-12">
+                    <div class="row m-0">
+                        <div class="col-1">
+                            <i class="fal fa-align-left text-primary"></i>
+                        </div>
+                        <div class="col-11">
+                            <h5 class="m-0">Navigation Position </h5>
+                            <p class="text-muted">Select a suitable navigation system for your web application
+                            </p>
+                        </div>
+                        <div class="col-1 pr-0 offset-1">
+                            <input type="radio" id="Vertical" name="screen">
+                        </div>
+                        <div class="col-3 pl-1">
+                            <label for="Vertical">Vertical</label>
+                        </div>
+                        <div class="col-1 pr-0">
+                            <input type="radio" id="top" name="screen">
+                        </div>
+                        <div class="col-2 pl-1">
+                            <label for="top">Top</label>
+                        </div>
+                        <div class="col-1 pr-0">
+                            <input type="radio" id="combo" name="screen">
+                        </div>
+                        <div class="col-3 pl-1">
+                            <label for="combo">Combo</label>
+                        </div>
+                    </div>
+                    <hr class="mt-4">
+                </div>
+                <div class="col-12">
+                    <div class="row m-0">
+                        <div class="col-12">
+                            <h5 class="m-0">Vertical Navbar Style</h5>
+                            <p class="text-muted m-0">Switch between styles for your vertical navbar </p>
+                            <a href="">See Documentation</a>
+                        </div>
+                        <div class="col-6 mt-4">
+                            <img src="./Images/default.png" class="img-fluid rounded border" />
+                        </div>
+                        <div class="col-6 mt-4">
+                            <img src="./Images/inverted.png" class="img-fluid rounded border" />
+                        </div>
+                        <div class="col-1 pr-0 mt-2">
+                            <input type="radio" id="Transparent" name="effect">
+                        </div>
+                        <div class="col-5 pl-1 mt-2">
+                            <label for="Transparent"> Transparent</label>
+                        </div>
+                        <div class="col-1 pr-0 mt-2"><input type="radio" id="Inverted" name="effect">
+                        </div>
+                        <div class="col-5 pl-1 mt-2"><label for="Inverted">Inverted</label>
+                        </div>
+                        <div class="col-6 mt-2">
+                            <img src="./Images/card.png" class="img-fluid rounded border" />
+                        </div>
+                        <div class="col-6 mt-2">
+                            <img src="./Images/vibrant.png" class="img-fluid rounded border" />
+                        </div>
+                        <div class="col-1 pr-0 mt-2"><input type="radio" id="Card" name="effect">
+                        </div>
+                        <div class="col-5 pl-1 mt-2"><label for="Card">Card</label>
+                        </div>
+                        <div class="col-1 pr-0 mt-2"><input type="radio" id="Vibrant" name="effect">
+                        </div>
+                        <div class="col-5 pl-1 mt-2"><label for="Vibrant">Vibrant</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-5 mb-4">
+                    <div style="height: 150px; width: 150px; margin:auto;">
+                        <img src="./Images/2.png" alt="" class="img-fluid" />
+                    </div>
+                    <h4 class="text-center mt-4">Like What You See?</h4>
+                    <p class="text-center text-muted"> Get Falcon now and create beautiful dashboards with
+                        hundreds of widgets. </p>
+                    <a href="" class="btn btn-primary font-weight-bold"
+                        style="margin:auto; display:block; width: 125px;">Purchase</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-2 align-self-start s-button  rounded bg-light" onclick="showMenu()">
+            <div class="row m-0 rounded">
+                <div class="col-2 p-0 text-center">
+                    <i class="far fa-cog text-primary"></i>
+                </div>
+                <div class="col-10 p-0">
+                    <p class="m-0 text-primary pl-1 font-weight-bold tisa">CUSTOMIZE</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+    <!------javaScript for setting Menu---------->
+    <script>
+        var settinglinks = document.getElementById("settinglinks");
+        function showMenu() {
+            settinglinks.style.right = "0"
+            settinglinks.style.transition = "all 0.7s"
+        }
+        function hideMenu() {
+            settinglinks.style.right = "-396px"
+        }
+    </script>
+</body>
+
+</html>
